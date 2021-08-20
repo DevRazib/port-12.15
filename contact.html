@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+				<div class="nav-links" id="navlinks">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="course.html">Course</a></li>
+						<li><a href="testimonial.html">Testimonial</a></li>
+					</ul>
+				</div>
+				<span onclick="openNav()"><i class="fa fa-bars"></i></span>
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Course</a>
+					<a href="#">Contact</a>
+					<a href="#">Testimonial</a>
+				</div>
+			</nav>
+		<h1>Contact US</h1>
+		</section>
+
+		<!------ contact us start ----->
+		
+		<section class="location">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d904.8003152907366!2d91.87343366864775!3d24.89111569736123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e97a32cf9300bf4!2sInfinity%20Flame%20Soft!5e0!3m2!1sen!2sbd!4v1617107342917!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</section>
+		<section class="contact-us">
+			<div class="row">
+				<div class="contact-col">
+					<div>
+						<i class="fa fa-home"></i>
+						<span>
+							<h5>
+								Raynagor,razbary,sylhet
+							</h5>
+							<p>Mirabazar,sylhet</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa fa-phone-alt"></i>
+						<span>
+							<h5>
+								01799861507
+							</h5>
+							<p>Monday to saturday, 10am to 6pm</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa fa-envelope"></i>
+						<span>
+							<h5>
+								ahmedrazib477@gmail.com
+							</h5>
+							<p>Email us for your query</p>
+						</span>
+					</div>
+				</div>
+				<div class="contact-col">
+					<form action="form-hanler.php" method="post">
+						<input type="text" name="name" placeholder="Enter Your Name" required="">
+						<input type="email" name="email" placeholder="Enter Your Email" required="">
+						<input type="text" name="subject" placeholder="Enter Your Subject" required="">
+						<textarea name="message" id=""  rows="8" required=""></textarea>
+						<button class="hero-btn red-btn" type="submit">Send Your Message</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!------ contact us end  ----->
+		<!-- footer start here  -->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Unde suscipit sequi sunt consequatur amet id quae totam <br>doloremque nam quos quaerat autem incidunt, quas minima veritatis placeat obcaecati eum cupiditateg.</p>
+			<div class="icons">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa fa-heart"></i>Razib Ahmed<!-- easy tutorial --></p>
+		</section>
+		<!-- footer end here -->
+
+
+
+		<!-- javascript for toogle menu -->
+		<script>
+			/* Set the width of the side navigation to 250px */
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		}
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
+	</body>
+</html>

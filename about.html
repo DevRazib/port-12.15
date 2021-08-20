@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="course.html">Course</a></li>
+                  <li><a href="testimonial.html">Testimonial</a></li>
+               </ul>
+            </div>
+            <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+            <div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+               <a href="#">Home</a>
+               <a href="#">About</a>
+               <a href="#">Course</a>
+               <a href="#">Contact</a>
+               <a href="#">Testimonial</a>
+            </div>
+         </nav>
+         <h1>Aobut US</h1>
+      </section>
+      <!-- about content start -->
+      <section class="about-us">
+         <div class="row">
+            <div class="about-col">
+               <h1>
+               We are the world's largest university</h1
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta odit, facilis voluptas deleniti eligendi ducimus aut beatae sed, temporibus laboriosam, commodi enim ratione explicabo voluptatibus, numquam dignissimos placeat. Vero vel facere, dolorem numquam? Qui veritatis, eos deserunt incidunt iusto repudiandae autem distinctio debitis ratione eligendi assumenda. Libero ipsa, molestias!</p>
+               <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+               <img src="img/about.jpg" alt="">
+            </div>
+         </div>
+      </section>
+      <!-- about content end -->
+      <!-- footer start here  -->
+      <section class="footer">
+         <h4>About Us</h4>
+         <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Unde suscipit sequi sunt consequatur amet id quae totam <br>doloremque nam quos quaerat autem incidunt, quas minima veritatis placeat obcaecati eum cupiditateg.</p>
+         <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+         </div>
+         <p>
+            Made with <i class="fa fa-heart"></i>Razib Ahmed<!-- easy tutorial -->
+         </p>
+      </section>
+      <!-- footer end here -->
+      <!-- javascript for toogle menu -->
+      <script>
+         /* Set the width of the side navigation to 250px */
+         function openNav() {
+         document.getElementById("mySidenav").style.width = "250px";
+         }
+         /* Set the width of the side navigation to 0 */
+         function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+   </body>
+</html>
+
